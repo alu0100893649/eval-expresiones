@@ -27,5 +27,5 @@
 
 ### Recursos
 
-* [Apuntes: Expresiones Regulares]https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/regexp/)
+* [Apuntes: Expresiones Regulares](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/regexp/)
 
