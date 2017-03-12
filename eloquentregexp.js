@@ -20,30 +20,37 @@ var unwritten = 0;
 
 // Fill in the regular expressions
 
+// car and cat
 verify(/ca[xf]/,
        ["my car", "bad cats"],
        ["camper", "high art"]);
 
+// pop and prop
 verify(/.../,
        ["pop culture", "mad props"],
        ["plop"]);
 
+//ferret, ferry, and ferrari
 verify(/.../,
        ["ferret", "ferry", "ferrari"],
        ["ferrum", "transfer A"]);
 
+// Any word ending in ious
 verify(/.../,
        ["how delicious", "spacious room"],
        ["ruinous", "consciousness"]);
 
+// A whitespace character followed by a dot, comma, colon, or semicolon
 verify(/.../,
        ["bad punctuation ."],
        ["escape the dot"]);
 
+// A word longer than six letters
 verify(/.../,
        ["hottentottententen"],
        ["no", "hotten totten tenten"]);
 
+// A word without the letter e
 verify(/.../,
        ["red platypus", "wobbling nest"],
        ["earth bed", "learning ape"]);
