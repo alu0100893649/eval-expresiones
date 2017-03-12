@@ -4,6 +4,8 @@
 
 * Use su portátil o su cuenta en c9 para llevar a cabo los objetivos planteados.
 * Esta práctica se divide en objetivos o hitos:  indique al profesor  cuando ha terminado y suba los enlaces a los repos y despliegues.
+* Escriba un  programa NodeJS por ejercicio 
+  - En cada programa pruebe su `regexp` con una variedad de cadenas y vuelque  los resultados en la consola
 
 ### Hitos
 
