@@ -4,12 +4,14 @@ throughout to mark pieces of dialogue. Now you want to replace all
 the dialogue quotes with double quotes, while keeping the single
 quotes used in contractions like aren’t.
 
-Think of a pattern that distinguishes these two kinds of quote usage and craft a call to the replace method that does the proper replacement.
+Think of a pattern that distinguishes these two kinds of quote usage
+and craft a call to the replace method that does the proper
+replacement.
 */
 
 var text = "'I'm the cook,' he said, 'it's my job.'";
 // Change this call.
-var result = text.replace(/X/g, '');
+var result = text.replace(/.../g, '...');
 console.log(result);
 var expected = `"I'm the cook," he said, "it's my job."`;
 if (expected === result) console.log("OK")

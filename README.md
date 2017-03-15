@@ -5,14 +5,12 @@
 * Use su portátil o su cuenta en c9 para llevar a cabo los objetivos planteados.
 * Esta práctica se divide en objetivos o hitos:  indique al profesor  cuando ha terminado y suba los enlaces a los repos y despliegues.
 * Hay un programa NodeJS por conjunto de ejercicios.  Pruebe sus `regexp`s con una variedad de cadenas (que casan y que no casan) 
+* Rellene las partes que faltan y ejecute `node eloquentregexp.js` para ver los resultados
 
 ### Hitos
 
 1. Use el repo de GitHub dado por la asignación de esta tarea 
 2. Resuelva los ejercicios en [eloquentregexp.js](eloquentregexp.js)
-3. Resuelva los ejercicios en [singlequotestodoublequotes.js](singlequotestodoublequotes.js)
-4. Resuelva los ejercicios en [regexpexercises.js](regexpexercises.js)
-5. Resuelva los ejercicios en [replaceexercises.js](replaceexercises.js)
 
 ### Recursos
 
