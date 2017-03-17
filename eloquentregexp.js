@@ -21,37 +21,37 @@ var unwritten = 0;
 // Fill in the regular expressions
 
 // car and cat
-verify(/ca[xf]/,
+verify(/ca(r|t)/,
        ["my car", "bad cats"],
        ["camper", "high art"]);
 
 // pop and prop
-verify(/.../,
+verify(/p(r)?op/,
        ["pop culture", "mad props"],
        ["plop"]);
 
 //ferret, ferry, and ferrari
-verify(/.../,
+verify(/ferr(e|y|a)\w*/,
        ["ferret", "ferry", "ferrari"],
        ["ferrum", "transfer A"]);
 
 // Any word ending in ious
-verify(/.../,
+verify(/\w*ious(\s\w+)?$/,
        ["how delicious", "spacious room"],
        ["ruinous", "consciousness"]);
 
 // A whitespace character followed by a dot, comma, colon, or semicolon
-verify(/.../,
+verify(/\s[.,:;]/,
        ["bad punctuation ."],
        ["escape the dot"]);
 
 // A word longer than six letters
-verify(/.../,
+verify(/\w{7,}/,
        ["hottentottententen"],
        ["no", "hotten totten tenten"]);
 
 // A word without the letter e
-verify(/.../,
+verify(/([^e]\b[a-z] | [a-z]\b[^e])/,
        ["red platypus", "wobbling nest"],
        ["earth bed", "learning ape"]);
 

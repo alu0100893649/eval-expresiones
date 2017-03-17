@@ -6,9 +6,9 @@ described. Do not worry about word boundaries unless explicitly
 mentioned. When your expression works, see whether you can make it
 any smaller.
 
-1.  Escriba una expresión regular que reconozca las cadenas de doble
-    comillas. Debe permitir la presencia de comillas y caracteres
-    escapados. Pruebe con `'"hello \"world\" and ... "'` 
+1. Escriba una expresión regular que reconozca las cadenas de doble
+   comillas. Debe permitir la presencia de comillas y caracteres
+   escapados. Pruebe con `'"hello \"world\" and ... "'` 
 2. Escriba una expresión regular que reconozca los números en punto flotante (por ejemplo `-2.3e-1`, `-3e2`, `23`, `3.2`)
 3. Escriba una expresión regular que case con los números no primos expresados en unario. Pruebe con `1111`, `111`, `111111`, `1111111`, ...
 4. Escriba una expresión regular que case con los comentarios JavaScript. 
